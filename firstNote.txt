@@ -1,18 +1,20 @@
-#设置用户名邮箱
+#set userName and email
 $ git config --global user.name "weiliangli"
 $ git config --global user.email "hbxyhjlwl@163.com"
 
 cd D:
 cd workspace
-#新建目录
+#new a folder
 mkdir myGitWork
-#显示当前目录
+#display directory
 pwd
-#创建git仓库
+#create git repository
 git init
-======创建一个文件，然后编辑，假定文件名为firstNote.txt======
-#把文件添加到仓库
+======create a file,and edit the file,the name is :firstNote.txt======
+#add the file to repository
 git add firstNote.txt
-#把文件提交到仓库
+#submit the file to repository
 git commit -m "wrote my gitFile"
-
+#check file status
+git status
+git diff
