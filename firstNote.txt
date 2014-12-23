@@ -18,3 +18,5 @@ git commit -m "wrote my gitFile"
 #check file status
 git status
 git diff
+#git reset
+git reset --hard HEAD^
