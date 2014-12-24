@@ -20,3 +20,7 @@ git status
 git diff
 #git reset
 git reset --hard HEAD^
+#view commit history
+git log
+#git command history
+git reflog
