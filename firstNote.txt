@@ -24,3 +24,8 @@ git reset --hard HEAD^
 git log
 #git command history
 git reflog
+#reset
+#no git add,need roolback
+git checkout -- test3
+@git add,then need roolback
+git reset head test3.txt
