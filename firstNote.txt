@@ -26,6 +26,7 @@ git log
 git reflog
 #reset
 #no git add,need roolback
+git reset head test3.txt
 git checkout -- test3
 @git add,then need roolback
 git reset head test3.txt
